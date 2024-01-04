@@ -1,0 +1,25 @@
+
+justify-content:
+This property aligns flex items along the main axis of the flex container.
+Values include flex-start (default), flex-end, center, space-between, space-around, and space-evenly.
+For example, justify-content: center will center the flex items along the main axis of the container.
+
+align-items:
+It aligns flex items along the cross-axis of the flex container (perpendicular to the main axis).
+Values include flex-start, flex-end, center, baseline, and stretch (default).
+For instance, align-items: center will center the flex items along the cross-axis of the container.
+
+gap:
+The gap property sets the spacing between flex items within a flex container.
+It's a shorthand for row-gap and column-gap in Grid, but in Flexbox, it applies only to the gap between flex items.
+Helps in creating consistent spacing between flex items without using margins or padding.
+
+flex-direction:
+Determines the direction of the main axis in the flex container.
+Values include row (default), row-reverse, column, and column-reverse.
+For example, flex-direction: column will arrange items in a column format instead of a row.
+
+flex-wrap:
+It defines whether flex items are forced onto a single line or can wrap onto multiple lines within the flex container.
+Values are nowrap (default), wrap, and wrap-reverse.
+wrap allows items to wrap onto multiple lines if needed, while nowrap keeps them on a single line.
